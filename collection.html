@@ -40,7 +40,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
 <script src="site.js"></script>
 <script>
-let cat="all",products=window.STARTER;
+let cat=(location.hash||"").slice(1)||"all",products=window.STARTER;
+if(cat!=="all"&&!CATS[cat])cat="all";
 window.pagePaint=function(t){
   const present=ORDER.filter(k=>products.some(p=>p.category===k));
   const chips=$("chips");chips.textContent="";

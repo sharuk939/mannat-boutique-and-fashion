@@ -30,14 +30,26 @@
     <div class="slide" style="background-image:url(hero-2.jpg)"></div>
     <div class="slide" style="background-image:url(hero-3.jpg)"></div>
     <div class="shade"></div>
+    <div class="frame"></div>
     <div class="wrap">
       <img class="logo" src="logo.png" alt="Mannat Boutique and Fashion">
+      <p class="eyebrow">Boutique &amp; Fashion &middot; Kapad Bazar, Ahmedabad</p>
       <h1 data-t="h1"></h1>
       <p data-t="hp"></p>
       <div class="btns"><a class="btn solid" data-wa data-t="b1" href="#"></a><a class="btn" href="collection.html" data-t="b2"></a></div>
     </div>
   </div>
   <div class="strip" id="strip"></div>
+
+  <section class="showcase"><div class="wrap">
+    <div class="title"><h2 data-t="sh"></h2><p data-t="ss"></p></div>
+    <div class="tiles">
+      <a class="tile" href="collection.html#cordset"><img src="tile-cordset.jpg" alt="" loading="lazy"><span data-cat="cordset"></span></a>
+      <a class="tile" href="collection.html#onepiece"><img src="tile-onepiece.jpg" alt="" loading="lazy"><span data-cat="onepiece"></span></a>
+      <a class="tile" href="collection.html#ladies"><img src="tile-ladies.jpg" alt="" loading="lazy"><span data-cat="ladies"></span></a>
+      <a class="tile" href="collection.html#top"><img src="tile-top.jpg" alt="" loading="lazy"><span data-cat="top"></span></a>
+    </div>
+  </div></section>
 
   <section class="about"><div class="wrap cols">
     <img src="shop-sign.jpg" alt="Mannat Boutique and Fashion" loading="lazy">
@@ -55,11 +67,18 @@
     </div>
   </div></section>
 
+  <section class="visit"><div class="wrap">
+    <h2 data-t="vbt"></h2>
+    <p data-t="vbp"></p>
+    <p class="hrs" data-t="hv"></p>
+    <div class="btns"><a class="btn solid" id="mapLink" target="_blank" rel="noopener" data-t="map" href="#"></a><a class="btn" data-wa data-t="b1" href="#"></a></div>
+  </div></section>
+
   <section class="contact" id="contact"><div class="wrap">
     <div class="title"><h2 data-t="vt"></h2></div>
     <div class="cols">
       <div><h3 data-t="al"></h3><p data-t="addr"></p>
-        <div class="btns"><a class="btn dark" id="mapLink" target="_blank" rel="noopener" data-t="map" href="#"></a></div></div>
+        <div class="btns"><a class="btn dark" id="mapLink2" target="_blank" rel="noopener" data-t="map" href="#"></a></div></div>
       <div><h3 data-t="ht"></h3><p data-t="hv"></p></div>
       <div><h3 data-t="cc"></h3><p><a class="l" href="tel:+919724325500">97243 25500</a> &nbsp;|&nbsp; <a class="l" data-wa href="#">+91 70434 34475</a></p>
         <div class="btns"><a class="btn dark" href="tel:+919724325500" data-t="call"></a>
@@ -77,8 +96,11 @@
 <script src="site.js"></script>
 <script>
 paint();
+const mp=document.getElementById("mapLink");document.getElementById("mapLink2").href=mp.href;
 const sl=document.querySelectorAll(".slide");let n=0;
 if(sl.length>1&&!matchMedia("(prefers-reduced-motion: reduce)").matches)setInterval(()=>{sl[n].classList.remove("on");n=(n+1)%sl.length;sl[n].classList.add("on")},6000);
+document.querySelectorAll(".title,.tile,.step,.visit .wrap,.about .cols").forEach(e=>e.classList.add("rv"));
+if("IntersectionObserver" in window){const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}}),{threshold:.12});document.querySelectorAll(".rv").forEach(e=>io.observe(e))}else document.querySelectorAll(".rv").forEach(e=>e.classList.add("in"));
 </script>
 </body>
 </html>
