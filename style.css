@@ -110,4 +110,17 @@ footer img{width:54px;border-radius:50%;display:block;margin:0 auto 10px}
 .contact .cols{align-items:start}
 .contact .btns{margin-top:14px}
 html[lang="gu"]{--serif:"Noto Serif Gujarati","Cormorant Garamond",Georgia,serif;--sans:"Noto Sans Gujarati","Jost","Segoe UI",sans-serif}
-@media(max-width:760px){nav{display:none}.lang{margin-left:0}}
+
+
+.hero{position:relative;overflow:hidden;min-height:80vh;display:flex;align-items:center}
+.hero .slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.8s ease}
+.hero .slide.on{opacity:1}
+.hero .shade{position:absolute;inset:0;background:linear-gradient(rgba(3,15,75,.78),rgba(3,15,75,.58) 55%,rgba(3,15,75,.78))}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.hero img.logo{width:min(140px,36vw)}
+.hero h1,.hero p{text-shadow:0 2px 14px rgba(0,0,0,.45)}
+.pagehead{background:var(--navy);color:#fff;text-align:center;padding:46px 20px;border-bottom:3px solid var(--red)}
+.pagehead h1{font-family:var(--serif);font-weight:500;font-size:clamp(2rem,6vw,3rem)}
+.pagehead p{margin-top:8px;font-weight:300;opacity:.88}
+@media(max-width:760px){nav a{display:none}nav a[href="collection.html"]{display:inline;margin-left:0}.lang{margin-left:10px}.lang button{padding:3px 8px;font-size:.78rem}}
+@media(max-width:480px){.brand span{display:none}}
