@@ -7,7 +7,7 @@ window.STARTER=[
 "category": "cordset",
 "fabric": "cotton",
 "description": "Relaxed olive tunic with matching bottoms. Easy, comfortable and stylish for everyday wear.",
-"image_url": "images/olive-coord.jpg"
+"image_url": "olive-coord.jpg"
 },
 {
 "id": "s1",
@@ -15,7 +15,7 @@ window.STARTER=[
 "category": "cordset",
 "fabric": "cotton",
 "description": "Soft green sleeveless top with delicate embroidery and a tiered hem, with matching bottoms.",
-"image_url": "images/green-embroidered-set.jpg"
+"image_url": "green-embroidered-set.jpg"
 },
 {
 "id": "s2",
@@ -23,7 +23,7 @@ window.STARTER=[
 "category": "cordset",
 "fabric": "cotton",
 "description": "Pretty pink top with scalloped embroidery, paired with matching bottoms.",
-"image_url": "images/pink-embroidered-set.jpg"
+"image_url": "pink-embroidered-set.jpg"
 },
 {
 "id": "s3",
@@ -31,7 +31,7 @@ window.STARTER=[
 "category": "cordset",
 "fabric": "linen",
 "description": "Textured teal tunic with a lace collar and pocket, with matching wide-leg pants.",
-"image_url": "images/teal-linen-coord.jpg"
+"image_url": "teal-linen-coord.jpg"
 },
 {
 "id": "s4",
@@ -39,7 +39,7 @@ window.STARTER=[
 "category": "cordset",
 "fabric": "cotton",
 "description": "Light blue shirt with tiny embroidered bows, paired with a matching long skirt.",
-"image_url": "images/denim-set.jpg"
+"image_url": "denim-set.jpg"
 },
 {
 "id": "s5",
@@ -47,7 +47,7 @@ window.STARTER=[
 "category": "shirt",
 "fabric": "cotton",
 "description": "Fresh lime shirt with floral detailing on the buttons. Light and breezy.",
-"image_url": "images/lime-shirt.jpg"
+"image_url": "lime-shirt.jpg"
 },
 {
 "id": "s6",
@@ -55,7 +55,7 @@ window.STARTER=[
 "category": "shirt",
 "fabric": "rayon",
 "description": "Classic navy shirt with pearl buttons and soft flowing sleeves.",
-"image_url": "images/navy-shirt.jpg"
+"image_url": "navy-shirt.jpg"
 },
 {
 "id": "s7",
@@ -63,7 +63,7 @@ window.STARTER=[
 "category": "onepiece",
 "fabric": "cotton",
 "description": "Elegant white and beige long dress with handcrafted 3D floral work.",
-"image_url": "images/white-floral-kurta.jpg"
+"image_url": "white-floral-kurta.jpg"
 },
 {
 "id": "s8",
@@ -71,7 +71,7 @@ window.STARTER=[
 "category": "onepiece",
 "fabric": "cotton",
 "description": "Cream tiered dress with small pink floral embroidery. Light and graceful.",
-"image_url": "images/cream-embroidered-dress.jpg"
+"image_url": "cream-embroidered-dress.jpg"
 },
 {
 "id": "s9",
@@ -79,7 +79,7 @@ window.STARTER=[
 "category": "onepiece",
 "fabric": "denim",
 "description": "Washed black long dress with rich floral embroidery down the front.",
-"image_url": "images/black-embroidered-dress.jpg"
+"image_url": "black-embroidered-dress.jpg"
 },
 {
 "id": "s10",
@@ -87,7 +87,7 @@ window.STARTER=[
 "category": "onepiece",
 "fabric": "rayon",
 "description": "Classic black and white polka dot long dress. Timeless and easy to style.",
-"image_url": "images/polka-dress.jpg"
+"image_url": "polka-dress.jpg"
 },
 {
 "id": "s11",
@@ -95,7 +95,7 @@ window.STARTER=[
 "category": "onepiece",
 "fabric": "rayon",
 "description": "Long lime green button-front dress with delicate floral embroidery.",
-"image_url": "images/lime-embroidered-dress.jpg"
+"image_url": "lime-embroidered-dress.jpg"
 },
 {
 "id": "s12",
@@ -103,7 +103,7 @@ window.STARTER=[
 "category": "onepiece",
 "fabric": "cotton",
 "description": "Soft pink embroidered jacket paired with a flowy white tiered dress.",
-"image_url": "images/white-pink-dress.jpg"
+"image_url": "white-pink-dress.jpg"
 },
 {
 "id": "s13",
@@ -111,7 +111,7 @@ window.STARTER=[
 "category": "ladies",
 "fabric": "cotton",
 "description": "Mint green kurta with lace detailing on the front and sleeves, with matching bottoms.",
-"image_url": "images/green-lace-kurta.jpg"
+"image_url": "green-lace-kurta.jpg"
 },
 {
 "id": "s14",
@@ -119,7 +119,7 @@ window.STARTER=[
 "category": "ladies",
 "fabric": "cotton",
 "description": "Soft peach kurta with scalloped sleeve edges and cream pants. Light and comfortable.",
-"image_url": "images/peach-kurta-set.jpg"
+"image_url": "peach-kurta-set.jpg"
 },
 {
 "id": "s15",
@@ -127,7 +127,7 @@ window.STARTER=[
 "category": "top",
 "fabric": "cotton",
 "description": "Mustard top with pleated sleeves and a relaxed fit.",
-"image_url": "images/orange-top.jpg"
+"image_url": "orange-top.jpg"
 },
 {
 "id": "s16",
@@ -135,7 +135,7 @@ window.STARTER=[
 "category": "top",
 "fabric": "rayon",
 "description": "Navy and white floral top, bright and easy to wear.",
-"image_url": "images/floral-top.jpg"
+"image_url": "floral-top.jpg"
 },
 {
 "id": "s17",
@@ -143,6 +143,6 @@ window.STARTER=[
 "category": "top",
 "fabric": "cotton",
 "description": "Emerald green top with a tie neck and a frill hem.",
-"image_url": "images/emerald-top.jpg"
+"image_url": "emerald-top.jpg"
 }
 ];
